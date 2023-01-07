@@ -1,10 +1,10 @@
 What are we building here? We need a hardware platform that:
-  - fully supports the Multi-VM strategy (or at the very least, doesn't get in the way)
-  - once set up, is hardly ever touched
-  - anything happening at this level is as automated as possible (set it and forget it)
+  - fully supports the Multi-VM strategy (or at the very least, doesn't get in the way) as a strong base for the Host-OS
+  - once set up, the hardware is hardly ever touched (same for the Host-OS)
+  - anything happening at the hardware + host-os is as automated as possible (set it and forget it)
 
 A quick "building construction" analogy:
-  - the host os is the "foundation" upon which the entire virtualization stategy is built
+  - the hardware + host os is the "foundation" upon which the entire virtualization stategy is built
     - do it right, and you won't have problems that bring down some of the rooms, or possibly all of the house
   - virtualization sofware is like the electrical wiring (a subsystem) of this home
     - could be simple and clean wiring, and you just flip a switch for it to work (Workstation Pro, Virtualbox)
@@ -56,7 +56,19 @@ So, here's (multiple paths to get to) a good foundation:
     - "supports" virtualization (Intel/AMD virtualization extensions in the cpu) as best as possible
     - can be "virtualized" and presented to the vm's (i.e., ethernet card can be virtualized thru "guest additions")
 
-More to come ...
+Windows Folks:
+- you might be thinking "windows gives me all kinds of grief", and I don't want that for a Host-OS
+  - Windows is fine as a host-os, as long as we strip out all the grief-causing elements (this is very possible)
+  - we make the os our own (versus Microsoft making it theirs, and allowing you to use it)
+  - once the host-os is installed, we rarely touch it
+- you might be thinking "windows is fine, and I love it", in which case
+  - use Microsoft's own Type-1 Hyper-V built-in to Windows 10/11, and you are ready for the Multi-VM strategy
+  - we don't get to make the os our own, so you'll be doing MS updates, etc., to the host-os ... generally, accepting all MS grief
+ 
+ Linux folks:
+ - buy/build a pc, install linux on it as the host-os, add a virtualization package ... done; start building your vm's
+   - keep everything up-to-date with the host-os package manager
+  
 
 Feel free to add in or rework, as you see fit, if you have complementary solutions.
 
