@@ -1,0 +1,35 @@
+A.) run a virtual environment (hypervisor: vmware, vbox) ... consists of:
+  A1.) build one modern/beefy pc (multi-cpu, ram- & ssd-heavy) ... ensure:
+    - Intel i7 or better processor with multiple cores, or AMD equivalent
+    - 32GB of ram or better
+    - one or more SSD's
+    - or buy this, if you cannot build it ... tons of resources available to help you DIY
+  A2.) load a host OS on it (Windows, Linux):
+    - From Windows 7 thru to Windows 11, or anything in between; alternatively, if Linux-savvy, use any reasonable OS from that arena.
+    - It's just a host os, and you won't do much here, except run the Type-2 virtualization software.
+  A3.) load the virtualization software (VMware Workstation Pro, Oracle VirtualBox):
+    - Workstation Pro (pretty much any modern version, $$$)
+    - VirtualBox (pretty much any modern version, FREE)
+    - ensure that the "Guest Tools" are available to be loaded, for each OS desired in a VM.
+  
+At the end of this stage, you'll be able to easily load & switch between running vm's, like others use multiple monitors.
+File transfers are shared folders between every vm to same space on host os.
+Backups are as simple as snagging vm copies.
+
+B.) run personality (vm's):
+  B1.) OS/2 (ArcaOS, $$$) in a vm ... works great! this is a "productivity" vm, because one can:
+    - run 16-bit DOS/WIN9x or OS/2 apps, or 32-bit OS/2 apps with confidence
+    - add applications and utilities to it to improve productivity, as one (re)discovers them.
+    - no driver problems, no graphics/display problems, etc., as the hardware is "virtualized".
+    - if not interested in a trouble-free ArcaOS install, consider OS/2 Warp 4.52 (last release, FREE)
+  B2.) Windows/Windows Server ($$$) in vm's ... works great! these are productivity vm's, because one can:
+    - run any app that exists for Windows, 32- or 64-bit, and don't have to worry about them being available for OS/2
+    - do development (vstudio, gcc, etc.), scripting (powershell, etc.), and more.
+  B3.) Linux vm's ... these mostly work great. these are test vm's, because I can:
+    - kick the tires on every os out there, could be linux, could be L4 activity
+    - bring up an OS, and test away.
+    - run applications and utilities that might not be available on either OS/2 or Windows.
+    
+There are numerous DIY articles on the internet for each and every one of these steps. Google for them, or check back as we add pointers to our favorites.
+If a necessary DIY article doesn't exist, we'll create it!
+
