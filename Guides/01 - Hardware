@@ -23,7 +23,21 @@ So, here's (multiple paths to get to) a good foundation:
   - will have device driver support for (your choice of) a Host-OS
   - it could be a purchased desktop (DT) or laptop (LT)
   - easy these days to build yourself (DIY)
-  01a. Intel platform
+  - high-end graphics (gaming-class) card not necessary; the built-in graphics on most any purchased computer is fine
+    if diy, the graphics built-in to the MOBO is fine
+    special considerations if you DO want a high-end graphics (gaming-class) card, and want to share to all VM's
+  01a. Intel platforms:
+    - possibilities:
+      - buy a dt/lt to the above specs ... shop around on amazon, best buy, or your local resources
+      - buy a NUC (intel NUC, complete small form-factor), add 16GB ram & ssd ... ready for host-os
+      - diy: Intel/other i7 motherboard w/ 4 slots for ram, i7 cpu, 4x8gb(or 16gb) dimms, one or more ssd's
+        add a case, power supply, keyboard/monitor ... assemble ... ready for host-os
+        the more modern the MOBO, the more capabilities it will have (more ram, more ssd slot support, etc.)
+      - websites to help you build (google search for latest/current results, dozens of options)
+        https://www.newegg.com/insider/building-a-gaming-pc-for-the-first-time-dont-panic-this-guide-can-help-you-out/
+        note that these sites, while helpful in building a pc, assume you want a business-class pc, not a VM-capable pc
+      - our own build process for a VM-capable DIY pc will be forth-coming
+      - you can always specify your requirements, and have a custom pc built for you
   01b. AMD platform
   01c. ... others (that folks have done)?
   
