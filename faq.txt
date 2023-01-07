@@ -1,0 +1,42 @@
+There are the inevitable "this can't be done, for these reasons ..." thoughts.
+
+List them here, along with possible solutions:
+
+01. Too many OS's to keep straight:
+  - this is true, we are using multiple OS's; a "host os", and one or more "guest os's" in vm's.
+  - the ideal might be "start the system, be presented with a handful of windows" where each holds the OS you need.
+  - every host os and every virtualization package has helpful or hindrance options to get to this ideal.
+  - note the use of each helpful item, and possible solutions to the hindrance item, and we are there. 
+
+02. This costs $$$:
+  - ain't that the truth ... 
+  - however, you can choose your path through this one, and it's your choice(s) that decide costs
+  - $$$-1: ms os as host ($$$), Hyper-V virtualization is free within that host (pro, enterprise)
+  - $$$-2: ms os as host ($$$), alternatively, use VirtualBox (could be home, pro, or enterprise)
+  - FREE-1: linux as host (free), VirtualBox
+  - host-os: ms ($$$), linux (usually free), potentially others ...
+  - virtualization software:
+    - VMware: Workstation Pro ($$$), PLayer (???)
+    - Virtualbox: free, sort of ... guest additions piece has wierd licensing like Java
+    - QEMU: free
+    - multitudes of linux virtualization solutions: pretty much all free, some exceptions
+
+03. where's my data, and who's keeping it safe:
+  - 3-2-1 rule for backups always applies (or should)
+  - your data lives on the host-os, if shared amongst all the os's (and that's an "ideal")
+    - use the standard methods available to that os for backup, virus/ransomware protection, etc.
+    - VirtualBox, for example, shares it to each os via "shared folders" method
+  - it lives within the guest os, you'll be responsible for sharing it to other os's if desired
+    - use any methods available in that os
+    
+QUOTES (gotta have these):
+
+"The only constraints I have ever found are ... those in the mind.
+Amazingly, they all come with on/off switches!" -- JT Agnello
+  - remind me to search and see if someone beat me to this
+
+"It DOES sound impossible, and those ARE problems that could block us ... 
+Oh, wait. I'm doing this right now!" -- JT Agnello
+  - can't count the number of times I've said this, in the business world
+  - the trick is to identify a possible solution, test it, and then propose it as a solution
+  - btw, they will still argue with you, so be ready
