@@ -1,0 +1,50 @@
+What are we building here? We need a hardware platform that:
+  - fully supports the Multi-VM strategy (or at the very least, doesn't get in the way)
+  - once set up, is hardly ever touched
+  - anything happening at this level is as automated as possible (set it and forget it)
+
+A quick "building construction" analogy:
+  - the host os is the "foundation" upon which the entire virtualization stategy is built
+    - do it right, and you won't have problems that bring down some of the rooms, or possibly all of the house
+  - virtualization sofware is like the electrical wiring (a subsystem) of this home
+    - could be simple and clean wiring, and you just flip a switch for it to work (Workstation Pro, Virtualbox)
+    - could be messy/complex wiring (Hyper-V), with pieces of it in every other system of your house (but it also works)
+  - vm's are the "room(s)" that you use
+    - some rooms you live in most hours of the day (productivity vm's)
+    - some you work in for just an hour or so (occasional use, but still useful VM)
+    - and some are like the attic/basement that you visit once or twice per year (kick the tires VM).
+
+So, here's (multiple paths to get to) a good foundation:
+
+01. A hardware platform (for the home market) with these *minimum* characteristics:
+  - Intel i7 multi-core cpu (or AMD equivalent) or better
+  - minimum 32gb of ram (or better, 64GB)
+  - one or more SSD's (or NVMe's)
+  - will have device driver support for (your choice of) a Host-OS
+  - it could be a purchased desktop (DT) or laptop (LT)
+  - easy these days to build yourself (DIY)
+  01a. Intel platform
+  01b. AMD platform
+  01c. ... others (that folks have done)?
+  
+02. planning for uses on that platform (helps you decide what platform elements to get)
+  - will run a host-os (not the same as your "primary" os)
+    - plan for your virtualization layer (most likely a Type-2, but could be otherwise)
+    - guest additions (the tools added to each vm to make use of virtualized components of your platform)
+  - will hold "local" data:
+    - local data storage (shared out to all the vm's on the host-os)
+    - local NAS (holds big stuff, backups, etc. ... whatever you can think of)
+  - services:
+    - lan
+    - local NAS (synology, other)
+    - internet (your home router, internet connection)
+  - ensure everything:
+    - "supports" virtualization (Intel/AMD virtualization extensions in the cpu) as best as possible
+    - can be "virtualized" and presented to the vm's (i.e., ethernet card can be virtualized thru "guest additions")
+
+More to come ...
+
+Feel free to add in or rework, as you see fit, if you have complementary solutions.
+
+
+
