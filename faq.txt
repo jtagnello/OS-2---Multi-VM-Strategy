@@ -1,14 +1,20 @@
-There are the inevitable "this can't be done, for these reasons ..." thoughts.
+There are the inevitable "this can't be done, for these reasons ..." thoughts. List them here, along with possible solutions:
 
-List them here, along with possible solutions:
 
-01. Too many OS's to keep straight:
+01. what is the quick way to do this?
+  a.)  beefy hardware platform (i7 or better, 32gb ram or better, multiple ssd's)
+  b.)  virtualization (VirtualBox)
+  c.)  create vm's, install multiple os's (OS/2, Windows, Linux)(possibly even MAC OS)
+  ... done! (read the guides in this repository for all the details)
+
+02. Too many OS's to keep straight:
   - this is true, we are using multiple OS's; a "host os", and one or more "guest os's" in vm's.
+  - we are making use of incredible technology (hardware, virtualization) that is now available to all of us.
   - the ideal might be "start the system, be presented with a handful of windows" where each holds the OS you need.
   - every host os and every virtualization package has helpful or hindrance options to get to this ideal.
   - note the use of each helpful item, and possible solutions to the hindrance item, and we are there. 
 
-02. This costs $$$:
+03. This costs $$$:
   - ain't that the truth ... 
   - however, you can choose your path through this one, and it's your choice(s) that decide costs
   - $$$-1: ms os as host ($$$), Hyper-V virtualization is free within that host (pro, enterprise)
@@ -21,14 +27,30 @@ List them here, along with possible solutions:
     - QEMU: free
     - multitudes of linux virtualization solutions: pretty much all free, some exceptions
 
-03. where's my data, and who's keeping it safe:
+04. where's my data, and who's keeping it safe:
   - 3-2-1 rule for backups always applies (or should)
-  - your data lives on the host-os, if shared amongst all the os's (and that's an "ideal")
+  - ideal: your data lives on the host-os, and is shared amongst all the os's in their vm's
     - use the standard methods available to that os for backup, virus/ransomware protection, etc.
     - VirtualBox, for example, shares it to each os via "shared folders" method
-  - it lives within the guest os, you'll be responsible for sharing it to other os's if desired
-    - use any methods available in that os
-    
+  - alternative: your data could live within each guest os
+    - you'll be responsible for sharing it to other os's if desired
+    - use any methods available in that os to protect the data (like you do today)
+
+05. this sounds hard ... too hard to even start on:
+  - any tool, when first introduced, takes some practice from each of us to figure out how best to use it
+  - some even make it into your toolbox, and you become a pro at pulling out the right tool for the job
+  - virtualization is just a tool to enable us to do more with our hardware
+  - if you get this virtualization tool "into your toolbox", you WILL solve most, if not all, computing problems
+  - these are problems where a "one os" strategy holds us back, and a "multi-vm" (multiple os) strategy frees us
+  - if you don't think virtualization is "mainstream", consider that:
+    - Microsoft now includes it in windows (Hyper-V)
+    - many other vendors offer virtualization software (most are free), on every "host-os" platform
+  - the hardware (our pc platforms) and the virtualization software has come together at the right time
+  - our guides make it easy (easier)
+
+
+
+
 QUOTES (gotta have these):
 
 "The only constraints I have ever found are ... those in the mind.
@@ -39,4 +61,4 @@ Amazingly, they all come with on/off switches!" -- JT Agnello
 Oh, wait. I'm doing this right now!" -- JT Agnello
   - can't count the number of times I've said this, in the business world
   - the trick is to identify a possible solution, test it, and then propose it as a solution
-  - btw, they will still argue with you, so be ready
+  - btw, many will still argue with you, so be ready
