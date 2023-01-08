@@ -48,6 +48,58 @@ There are the inevitable "this can't be done, for these reasons ..." thoughts. L
   - the hardware (our pc platforms) and the virtualization software has come together at the right time
   - our guides make it easy (easier)
 
+06. Just stick with Microsoft Windows
+  - somehere up to about Windows 7, this was a great strategy
+    - the GUI was about right, the OS was stable, and there just wasn't much we couldn't do
+    - updates were available on a schedule from MS, and you could choose to apply them or not
+    - all your apps worked well, and you felt like you were in control ... life was good!
+  - then something happened ... MS decided the OS wasn't really ours any longer
+    - all successive Windows OS releases took away our ability to control the OS, and our own destiny
+    - Windows 8.x, 10, and now 11, all make it worse, even as MS gives you more "features"
+      - our control, and our own destiny, when using MS Windows, was now "GREYED OUT"
+      - you could see it, it was right there, you just couldn't access it any longer
+  - then something else happened ... business decided our information wasn't really ours any longer
+    - clouds, subscriptions, privacy intrusions, harvesting of everything that we thought we owned
+    - your control, your personal information, even your computing destiny, is being stripped away
+  - luckily, the multi-vm strategy will get it all back for you ... the guides show you how!
+  
+07. Just stick with Linux (in any of its many flavors)
+  - Linux is indeed a great OS ... thosands are working to make it better every day
+    - many flavors to choose from (resulting in the need for much "testing", or kicking the tires on each flavor)
+    - if you can live with its complexity, it will get you close to Windows-like
+  - a better strategy is to put it in a vm, and kick the tires that way
+    - when it's right for you, move it to "productivity vm" status
+    - possibly, even make it the Host-OS!
+  
+08. What is OS/2 (ArcaOS), and why do I care?
+  - OS/2 was pretty much the 1st 32-bit OS for the PC platform that ran all your dos/win apps
+    - marketing-wise, many of us were sold on Windows, and you just lived with Windows' grief
+    - same thing happens in car sales, all the time ... that's the power of sales tactics, marketing, etc.
+  - by the time OS/2 hit the 4.x series (OS/2 Warp), it was perfect, with an object-oriented desktop environment
+    - it ran multiple 16-bit dos or win apps, and usually better than windows could
+    - it ran multiple 32-bit OS/2 apps ... these are powerful
+    - everything was an object ... drag it to another object, and both objects now make things happen for you
+  - the windows marketing juggernaut rolled on ...
+    - right over our technical needs for something better than windows
+    - OS/2 languished in the background, always there, but not mainstream any longer
+    - IBM discontinued sales; eComStation took over sales; now ArcaOS has the reins
+  - ArcaOS is doing it right ...
+    - new device drivers for OS/2, on modern hardware ... many other improvements
+    - but wait, there's still my favorite app on Windows, and it isn't available for OS/2 (or Linux, or ...)
+  - don't wait any longer ... the Multi-VM strategy solves all these problems
+    - run multiple OS's in multiple VM's, and get the best of all, right now
+    - ArcaOS (in a multi-vm strategy) makes productivity vm status!
+    - Windows gives you grief ... put it in a VM, and contain it, while still getting at the apps on Windows
+    - Linux is up and coming ... put it in a VM and test (all of them), and get it to productivity status
+ 
+ 09. Multi-VM is starting to sound pretty cool ... what else can I do with it?
+   - once the architecture is in place for you (hardware, virtualization), there's not much limiting you in VM's
+     - if one productivity vm is good for you, then two, or three, could possibly be better for you!
+     - one APP per VM, contained/isolated, might be better than all your eggs (apps) in one basket (Windows)
+     - how about RETRO vm's, where you run an old os that has a certain game you can't live without?
+   - how about the next great thing to come?
+     - being multi-vm means you can experience new things alongside your productivity VM's
+     - the productive VM's run stable; the new thing VM can crash and it won't take down your other VM's
 
 
 
